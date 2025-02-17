@@ -11,6 +11,9 @@ while  (command != "Выход")
         case "Как погода?":
             Console.WriteLine("Жарковато сегодня");
             break;
+        case "Мне грустно":
+            Console.WriteLine("Не грусти!");
+            break;
         default:
             Console.WriteLine("Не понял, но согласен!!!!!!!!!!!!!!!!!!!");
             break;
